@@ -10,16 +10,16 @@
 
 为了线程安全，我们可以使用锁的机制来确保，同一时刻只有同一个线程来对同一个数据源进行访问。在开发过程中我们通常使用以下几种锁:
 
-> @synchronized
-NSLock
-NSRecursiveLock
-NSCondition
-NSConditionLock
-pthread_mutex
-pthread_rwlock
-dispatch_semaphore
-OSSpinLock
-os_unfair_lock
+> - @synchronized
+> - NSLock
+> - NSRecursiveLock
+> - NSCondition
+> - NSConditionLock
+> - pthread_mutex
+> - pthread_rwlock
+> - dispatch_semaphore
+> - OSSpinLock
+> - os_unfair_lock
 
 
 
